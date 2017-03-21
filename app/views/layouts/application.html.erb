@@ -9,6 +9,12 @@
   </head>
 
   <body>
+    <h1> All Customers</h1>
+  <ul>
+    <li><%= link_to "Home", root_path %></li>
+    <li><%= link_to "Missing Email", missing_email_path %></li>
+    <li><%= link_to "alphabetized", alphabetized_path %></li>
+  </ul>
     <%= yield %>
   </body>
 </html>
