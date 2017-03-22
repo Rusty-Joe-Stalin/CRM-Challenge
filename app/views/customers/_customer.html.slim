@@ -1,4 +1,7 @@
 .customers
+ 
   h3 = customer.Full_Name
   
   = image_tag customer.Image_Path
+-if @not_has_province
+  p  province:none

@@ -1,3 +1,27 @@
 // Place all the styles related to the finder controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+body{
+  ul{
+    li{
+    list-style-type: none;
+    display: inline-block;
+   }
+  }
+  background-color: #e6e6fa;
+}
+
+.customers {
+    background: white;
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    border: 1px solid grey;
+    box-shadow: 2px , 2px ,3px ;
+    margin: 2em;
+    padding:1em;
+    h3 {
+      color: blue;
+    }
+
+}

@@ -1,6 +1,6 @@
 ActiveAdmin.register Customers do
 
-  permit_params :Full_Name,:Phone_Number,:Email,:Image_Path
+  permit_params :Full_Name,:Phone_Number,:Email,:Image_Path,:province_id
 # See permitted parameters documentation:
 # https://github.com/activeadmin/activeadmin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters
 #
